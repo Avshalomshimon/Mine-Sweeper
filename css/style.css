@@ -1,0 +1,47 @@
+/* table {
+  margin: 0 auto;
+}
+
+.cell {
+    width: 2em;
+    height: 2em;
+}
+
+.floor {
+    background-color: gray;
+} */
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+}
+
+.occupied {
+    background-color: rgb(32, 30, 30);
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(105, 102, 102);
+    border: 1px solid black;
+    text-align: center;
+   
+}
+.clicked {
+    background-color: rgb(153, 157, 157); 
+}
